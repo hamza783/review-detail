@@ -1,0 +1,16 @@
+.button {
+    background-color: #0052ce;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .redMessage {
+    color: red;
+    font-size: 50px;
+  }

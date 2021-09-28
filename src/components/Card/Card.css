@@ -1,0 +1,70 @@
+.card {
+    background-color: white;
+    text-align: left;
+    height: 225px;
+    max-width: 350px;
+    position: relative;
+}
+.main {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+.main h4 {
+    padding-bottom: 2px;
+    margin-bottom: 0;
+}
+.cardDetail {
+    background-color: white;
+    text-align: left;
+    min-width: 200px;
+    width: 90vw;
+    height: auto;
+    padding-bottom: 50px;
+    position: relative;
+    margin: 5px 0;
+}
+
+.replyContent {
+    background-color: white;
+    min-width: 200px;
+    width: 90vw;
+    height: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.textArea {
+    width: 90%;
+    height: 90%;
+}
+.replyImg {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.editImg {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.replyContent input {
+    width: 90%;
+    height: 90%;
+    border: none;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 10px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
